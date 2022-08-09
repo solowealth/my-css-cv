@@ -8,58 +8,64 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
+    <header class="header">
         <div>
-            <img src="./cloud.png" alt="Cloud" />
-            <h1>I'm Solomon.</h1>
-            <p>I am a Front-end software developer</p>
-            <img src="./cloud.png" alt="Cloud" />
-            <img src="./mountain.png" alt="Mountain" />
+            <img id="cloud1" src="./cloud.png" alt="Cloud" />
+            <div class="intro">
+                <h1>I'm Solomon.</h1>
+                <p>I am a Customer experience analyst, and Front-end software developer</p>
+            </div>
+            <img id="cloud2" src="./cloud.png" alt="Cloud" />
+            <img id="mountain" src="./mountain.png" alt="Mountain" />
         </div>
     </header>
     <main>
-        <div>
+        <div class="main1">
             <div>
-                <img src="./PSW1.png" alt="Solomon's Image" />
+                <img class="psw" src="./PSW1.png" alt="Solomon's Image" />
             </div>
-            <div>
-                <h3>Hi.</h3>
-                <p>I'm a Software developer based in Lagos state in Nigeria, I have a passion for software development and a strong interest to code.</p>
+            <div id="intro1">
+                <h2>Hi.</h2>
+                <p id="place">I'm a Software developer based in Lagos state, Nigeria, I have a passion for <br>software development and a strong interest to code.</p>
             </div>
             <hr>
         </div>
 
-        <div>
+        <div class="main2">
             <div>
-                <img src="./computer.png" alt="Computer Image" />
-                <h2>My Skills.</h2>
-                <h3>Things I can do...</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus eum esse expedita mollitia. Voluptate nihil necessitatibus repellat dolor nisi illum placeat facilis recusandae cupiditate obcaecati! Numquam minima quaerat molestias accusamus.</p>
+                <div id="skills">
+                    <h2>My Skills.</h2>
+                    <h3 class="thingsICanDo" >Things I can do...</h3>
+                </div>
+                <div id="computer-container">
+                    <img id="computer-image" src="./computer.png" alt="Computer Image" />
+                    <p id="skill-text" >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus eum esse expedita mollitia. Voluptate nihil necessitatibus repellat dolor nisi illum placeat facilis recusandae cupiditate obcaecati! Numquam minima quaerat molestias accusamus.</p>
+                </div>
             </div>
             <div>
-                <h3>Projects I have worked on</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae nemo accusantium magni amet quod debitis odit sint maiores numquam laborum? Voluptate consequuntur aliquid maxime dolore iste fugit dignissimos ducimus quaerat.</p>
-                <img src="./cell tower.png" alt="cell tower">
+                <img id="cell-tower-image" src="./cell tower.png" alt="cell tower">
+                <h3 id="projects" >Projects I have worked on...</h3>
+                <p id="project-text" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae nemo accusantium magni amet quod debitis odit sint maiores numquam laborum? Voluptate consequuntur aliquid maxime dolore iste fugit dignissimos ducimus quaerat.</p>
             </div>
         </div>
         <hr>
 
-        <div>
-            <h3>Get In Touch</h3>
-            <h3>I'm currently available for freelance or full-time jobs.</h3>
-            <p>If you have a project you want me to be a part of or you want me to take a look at or even if you just want to say hi, please contact me.</p>
+        <div class="main3">
+            <h3 id="getInTouch" >Get In Touch</h3>
+            <h3 id="freelance" >I'm currently available for freelance or full-time jobs.</h3>
+            <p id="contactMe-text" >If you have a project you want me to be a part of or you want me to take a look at or even if you just <br>want to say hi, please contact me.</p>
             <div>
                 <button class="btn">Contact Me</button>
             </div>
         </div>
     </main>
-    <footer>
-        <div>
+    <footer class="footer">
+        <div class="social-icons">
             <a target="_blank" href="https://web.facebook.com/solowealth">Facebook</a>
-            <a target="_blank" href="https://web.facebook.com/solowealth">Twitter</a>
-            <a target="_blank" href="https://web.facebook.com/solowealth">LinkedIn</a>
+            <a target="_blank" href="https://twitter.com/solofuture">Twitter</a>
+            <a target="_blank" href="https://www.linkedin.com/in/solomon-esekhile-leo-83499415a/">LinkedIn</a>
         </div>
-        <p>© 2022 Solomon Esekhile-Leo</p>
+        <p id="copyright-icon" >© 2022 Solomon Esekhile-Leo</p>
     </footer>
 </body>
 </html>

@@ -1,3 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Exo:ital,wght@0,100;0,400;0,700;1,100&family=Montserrat+Alternates:ital,wght@0,400;0,700;1,200&display=swap');
 *{
-    background-color: green;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+.header{
+
+    background-color: #dff6f0;
+    text-align: center;
+    height: 65vh;
+}
+
+#cloud1{
+
+    float: right;
+    padding-top: 50px;
+    padding-right: 300px;
+}
+
+#cloud2{
+    float: left;
+    padding-left: 300px;
+    padding-bottom: 500px;
+
+}
+
+#mountain{
+
+    margin-right: 600px;
+    margin-bottom: 30px;
+    width: 38rem;
+
+}
+
+.intro{
+
+    font-size: 30px;
+    font-family: 'Exo', sans-serif;
+    padding-top: 60px;
+    line-height: 100px;
+    color: rgb(24, 134, 181);
+}
+h1{
+    padding-left: 310px;
+}
+
+.main1{
+    
+    text-align: center;
+    margin-right: 600px;
+}
+.psw{
+    height: 50vh;
+    width: 50vh;
+    border-radius: 50%;
+    margin: 60px auto;
+}
+
+#intro1{
+
+    margin-left: 450px;
+    font-size: 20px;
+    margin-top: -60px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin-bottom: 20px;
+    color: rgb(24, 134, 181);
+}
+hr{
+    border: 2px dashed #8ba3a3;
+    width: 50px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    margin-left: 850px;
+}
+
+.main2{
+
+    text-align: center;
+    margin-right: 600px;
+    color: #40514E;
+}
+
+#skills{
+
+margin-left: 450px;
+font-size: 20px;
+margin-top: -60px;
+font-family: 'Montserrat Alternates', sans-serif;
+margin-bottom: 20px;
+color: rgb(24, 134, 181);
+}
+.thingsICanDo{
+    color: #40514E;
+    font-size: 20px;
+    margin-left: 300px;
+    font-family: 'Montserrat Alternates', sans-serif;
+
+}
+
+#computer-image{
+    float: left;
+    border-radius: 100%;
+    height: 25vh;
+    padding-right: 10px;
+    margin-left: 400px;
+
+}
+
+#skill-text{
+    font-size: 25px;
+}
+
+#cell-tower-image{
+    height: 30vh;
+    float: right;
+}
+
+#project-text{
+    font-size: 25px;
+    margin-left: 400px;
+}
+
+#projects{
+
+    font-size: 28px;
+    margin: 15px auto;
+}
+
+.main3{
+    text-align: center;
+}
+
+#getInTouch{
+    word-spacing: 2px;
+    margin: 10px auto;
+    color: rgb(24, 134, 181);
+    font-family: 'Exo', sans-serif;
+}
+
+#freelance{
+    word-spacing: 2px;
+    margin: 10px auto 10px;
+    font-family: 'Exo', sans-serif;
+}
+
+#contactMe-text{
+
+    word-spacing: 2px;
+    margin: 10px auto 10px;
+    font-size: 15px;
+    font-family: 'Exo', sans-serif;
+}
+
+.btn{
+
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: rgb(24, 134, 181);
+    cursor: pointer;
+    outline: none;
+    border: none;
+    margin: 10px auto 40px;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.footer{
+
+    background-color: #66bfbf;
+    text-align: center;
+    height: 25vh;
+}
+
+.social-icons{
+    padding-top: 50px;
+    word-spacing: 20px;
+    text-decoration: none;
+
+}
+
+#copyright-icon{
+
+    color: whitesmoke;
+    margin-top: 15px;
 }
